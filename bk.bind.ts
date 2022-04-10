@@ -1,0 +1,1 @@
+function bind(key: string, func: object) {document.addEventListener('keydown', (e) => { if (e.key == key) func;});};
